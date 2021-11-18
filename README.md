@@ -3,7 +3,8 @@ kaggle「chaii - Hindi and Tamil Question Answering」コンペにて使用し�
 
 # modelフォルダ内の各model解説 
 ①eaw-hinge-reinit3-l3<br>
-- lovasz-hinge損失を活用したマルチタスク訓練&roberta-encoder最終３層の重みを初期化&roberta-encoder最終３層をconcatして出力実行
+- lovasz-hinge損失を活用したマルチタスク訓練&roberta-encoder最終３層の重みを初期化 
+  &roberta-encoder最終３層をconcatして出力実行
 - publicLB/privateLB：0.774/0.721
 
 ②eaw-reinit2-msd<br>
